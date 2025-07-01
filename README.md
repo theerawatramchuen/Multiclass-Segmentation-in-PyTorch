@@ -8,7 +8,8 @@ This repository contains PyTorch implementations for multiclass image segmentati
 2. [Dataset](#dataset)
 3. [Architecture](#architecture)
 4. [Results](#results)
-5. [Contact Me](#contact-me)
+5. [GradCAM](#gradcam)
+6. [Contact Me](#contact-me)
 
 ## Introduction
 
@@ -29,6 +30,17 @@ Here are some sample results from the segmentation model: Image, Ground Truth, a
 ![Result 2](figures/result_2.jpg)
 ![Result 3](figures/result_3.jpg)
 ![Result 4](figures/result_4.jpg)
+
+## GradCAM
+
+Here are some of the results of GradCAM for each class: 
+1. Background
+2. Weed-1
+3. Weed-2
+
+![GradCAM 0](figures/gradcam_0.jpg)
+![GradCAM 1](figures/gradcam_1.jpg)
+![GradCAM 2](figures/gradcam_2.jpg)
 
 ## Contact Me
 
