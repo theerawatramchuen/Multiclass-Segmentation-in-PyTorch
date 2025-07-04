@@ -2,6 +2,15 @@
 
 This repository contains PyTorch implementations for multiclass image segmentation using the U-Net architecture. It focuses on segmenting multiclass weeds in agricultural images, demonstrating the effectiveness of deep learning models in precision agriculture.
 
+## Installation
+```
+conda create -n unet_gpu python=3.11 -y
+conda activate unet_gpu
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install opencv-python matplotlib
+pip install albumentations
+```
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
