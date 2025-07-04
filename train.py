@@ -127,7 +127,7 @@ if __name__ == "__main__":
     lr = 1e-2
     early_stopping_patience = 50
     checkpoint_path = f"{path}/checkpoint.pth"
-    dataset_path = "/media/nikhil/New Volume/ML_DATASET/Weeds-Dataset/weed_augmented"
+    dataset_path = "C:/Users/RYZEN/Downloads/dataset/weed_augmented"#"/media/nikhil/New Volume/ML_DATASET/Weeds-Dataset/weed_augmented"
     colormap = [
         [0, 0, 0],      # Background
         [0, 0, 128],    # Class 1
