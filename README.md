@@ -7,7 +7,7 @@ This repository contains PyTorch implementations for multiclass image segmentati
 conda create -n unet_gpu python=3.11 -y
 conda activate unet_gpu
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-pip install opencv-python matplotlib pandas
+pip install opencv-python matplotlib pandas tqdm
 pip install albumentations
 ```
 
